@@ -8,7 +8,7 @@ public class Poem
  {
      out.println("JABBERWOCKY"+'\n');
      
-     out.println("\"Twas brillig, and the slithy toves");
+     out.println("\'Twas brillig, and the slithy toves");
      
      out.println("  Did gyre and gimble in the wabe;");
      
@@ -23,7 +23,7 @@ public class Poem
      
      out.println("Beware the Jubjub bird, and shun");
      
-     out.println("  The frumious Bandersnatch!"+'\n');
+     out.println("  The frumious Bandersnatch!\"" +'\n');
      
      
      out.println("He took his vorpal sword in hand:");
@@ -71,8 +71,8 @@ public class Poem
      out.println("  And the mome raths outgrabe."+'\n');
      
      
-     out.print("\"It seems very pretty,");
-     out.println("she said when she had finished");
+     out.print("\"It seems very pretty,\"");
+     out.println(" she said when she had finished");
      out.println("it, \"but it's RATHER hard to understand!(You see");
      out.println("she didn't like to confess, ever to herself, that");
      out.println("she couldn't make it out at all.) \"Somehow it seems");
